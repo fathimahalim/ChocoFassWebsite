@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;900&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Poppins:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="navigation" style="text-align:center">
+        <h1>ChocoFass</h1>
+        
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="product.html">Our Products</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact Us</a>
+        </div>
+    <br>   
+    <div class="header">
+      <h1>ChocoFass Chocojar</h1>
+      <p>crispy, crunchy, nyum!</p>
+    </div>
+    
+    <div class="row">
+      <div class="main">
+        <h2>What is Chocofass Chocojar?</h2>
+        <div class="fakeimg">
+            <img src="Images Home/chocofass.png" height="300px">
+        </div>
+        <p>ChocoFass choco jar is a business related to food. Nowadays, choco jar crispy is the famous chocolate that gives high demand to my business. These choco jars have a variety of toppings that have been attracted more customers to buy and taste them. The majority 9 from 10 customers are very satisfied with our product.
+    <br>
+    Want to experience the expertise of ChocoFass choco jar for yourself? Give us a call today and let’s discuss what we can do for you.</p>
+        <br>
+    <h2>Select your own favourite!</h2>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 7</div>
+          <img src="Images Home/CHOCOLATE.png" style="width:50%">
+          <div class="text">Chocolate</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="Images Home/BANANA.png" style="width:50%">
+            <div class="text">Banana</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="Images Home/BUTTERSCOTH.png" style="width:50%">
+            <div class="text">Butterscotch</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="Images Home/DURIAN.png" style="width:50%">
+            <div class="text">Durian</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="Images Home/MATCHA.png" style="width:50%">
+            <div class="text">Matcha</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="Images Home/REDVELVET.png" style="width:50%">
+            <div class="text">Red Velvet</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="Images Home/WHITECHOCOLATE.png" style="width:50%">
+            <div class="text">White Chocolate</div>
+          </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+        </div>
+        <br>
+
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+    <div class="footer">
+      <footer>&copy;ChocoFass 2022| All right reserved.</footer>
+    </div>
+    
+</body>
+</html>

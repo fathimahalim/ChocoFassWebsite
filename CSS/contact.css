@@ -1,0 +1,115 @@
+body
+     {
+         background-color: cb997e;
+         font-family: 'Be Vietnam Pro', sans-serif;
+         font-family: 'Mochiy Pop P One', sans-serif;
+    }
+
+div
+{
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #ffe8d6;
+}
+div h1
+{
+    font-family: 'Great Vibes', cursive;
+    color:azure;
+}
+a:link 
+    {
+        color:rgb(255, 255, 255);
+        background-color: none ;
+        text-decoration: none;
+        padding: 15px;
+        text-transform:capitalize;
+        font-size: 20px;
+    } 
+a:visited
+    {
+        color:snow;
+        background-color:none;
+        text-decoration: none;
+    }
+a:hover
+{
+    color:lightsalmon;
+    background-color:peachpuff;
+    text-decoration: underline;
+}
+a:active
+{
+    color:peru;
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+h2
+{
+    text-align: center;
+    color: ivory;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+p
+{
+    text-align: center;
+    color:ivory;
+}
+footer
+{
+    color: ivory;
+    text-align: center;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]:link {
+  background-color:tan;
+  
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h3
+{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: azure;
+    font-size: 45px;
+
+}
+label
+{
+    font-family:'Poppins', sans-serif;
+}
+header 
+{
+    padding: 40px;
+    text-align: center;
+    background-image: url(../CSS/clouds.png);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
